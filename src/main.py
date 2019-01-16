@@ -12,11 +12,11 @@ from SamplePreprocessor import preprocess
 
 class FilePaths:
 	"filenames and paths to data"
-	fnCharList = '../model/charList.txt'
-	fnAccuracy = '../model/accuracy.txt'
-	fnTrain = '../data/'
-	fnInfer = '../data/test.png'
-	fnCorpus = '../data/corpus.txt'
+	fnCharList = '../content/model/charList.txt'
+	fnAccuracy = '../content/model/accuracy.txt'
+	fnTrain = '../content/data/'
+	fnInfer = '../content/data/test.png'
+	fnCorpus = '../content/data/corpus.txt'
 
 
 def train(model, loader):
