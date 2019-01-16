@@ -13,7 +13,7 @@ from SamplePreprocessor import preprocess
 class FilePaths:
 	"filenames and paths to data"
 	fnCharList = '../content/model/charList.txt'
-	fnAccuracy = '../content/model/accuracy.txt'
+	fnAccuracy = '/content/SimpleHTR/model/accuracy.txt'
 	fnTrain = '../content/data/'
 	fnInfer = '../content/data/test.png'
 	fnCorpus = '../content/data/corpus.txt'
